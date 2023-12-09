@@ -1,5 +1,5 @@
-import firebase from '../Services/Firebase'
+import app from '../Services/Firebase'
 
 export function getting(table) {
-    return firebase.firestore().collection(`${table}`).get();
+    return app.firestore().collection(`${table}`).get();
 }
