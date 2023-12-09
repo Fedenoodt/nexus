@@ -1,68 +1,179 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	color: white;
+	font-size: 14px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+a { 
+	font-size: 14px;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+	background-color: black;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+	font-size: 3rem;
+	margin:0 0;
+}
+.tooBig {
+	font-size: 90px;
+	margin: 0 0;
+}
+
+.Emblema {
+	width: 18rem;
+}
+
+.megaEmblema {
+width: 2rem;
+}
+
+.megaReloj {
+	font-size: 2rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.listaHorizontal {
+	display: inline-block;
+ 	margin: 0 30px;
+}
+
+a .notGood {
+        color: red;
+}
+
+a .good {
+        color: lightgreen;
+}
+
+
+
+.notGood {
+        color: red;
+	text-decoration: none;
+}
+
+.good {
+        color: lightgreen;
+	text-decoration: none;
+}
+
+.atajos {
+	max-width: 5rem;
+	float: right;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+    background-color: rgba(104, 104, 104, 0.8);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.imgAtajos {
+	width: 3rem;
+	height: 3rem;
+	object-fit: contain;
+}
+.inicio{
+	float: right;
+	float: bottom;
+}
+
+@media (min-width: 625px) {
+	* { font-size: 14px; }
+	a { font-size: 14px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 2rem;
+	}
+
+	.megaReloj {
+		font-size: 2rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 783px) {
+	* { font-size: 14px; }
+	a { font-size: 14px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 3rem;
+	}
+
+	.megaReloj {
+		font-size: 4rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 1007px) {
+	* { font-size: 16px; }
+	a { font-size: 16px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 4rem;
+	}
+
+	.megaReloj {
+		font-size: 5rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 1225px) {
+	* { font-size: 18px; }
+	a { font-size: 18px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 6rem;
+	}
+
+	.megaReloj {
+		font-size: 7rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 1425px) {
+	* { font-size: 18px; }
+	a { font-size: 18px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 6rem;
+	}
+
+	.megaReloj {
+		font-size: 10rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }

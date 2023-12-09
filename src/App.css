@@ -1,42 +1,179 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+	color: white;
+	font-size: 14px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+a { 
+	font-size: 14px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+	background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1 {
+	font-size: 3rem;
+	margin:0 0;
+}
+.tooBig {
+	font-size: 90px;
+	margin: 0 0;
 }
 
-.card {
-  padding: 2em;
+.Emblema {
+	width: 18rem;
 }
 
-.read-the-docs {
-  color: #888;
+.megaEmblema {
+width: 2rem;
+}
+
+.megaReloj {
+	font-size: 2rem;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.listaHorizontal {
+	display: inline-block;
+ 	margin: 0 30px;
+}
+
+a .notGood {
+        color: red;
+}
+
+a .good {
+        color: lightgreen;
+}
+
+
+
+.notGood {
+        color: red;
+	text-decoration: none;
+}
+
+.good {
+        color: lightgreen;
+	text-decoration: none;
+}
+
+.atajos {
+	max-width: 5rem;
+	float: right;
+}
+
+button {
+    background-color: rgba(104, 104, 104, 0.8);
+}
+
+.imgAtajos {
+	width: 3rem;
+	height: 3rem;
+	object-fit: contain;
+}
+.inicio{
+	float: right;
+	float: bottom;
+}
+
+@media (min-width: 625px) {
+	* { font-size: 14px; }
+	a { font-size: 14px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 2rem;
+	}
+
+	.megaReloj {
+		font-size: 2rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 783px) {
+	* { font-size: 14px; }
+	a { font-size: 14px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 3rem;
+	}
+
+	.megaReloj {
+		font-size: 4rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 1007px) {
+	* { font-size: 16px; }
+	a { font-size: 16px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 3rem;
+		height: 3rem;
+	}
+	.megaEmblema {
+	width: 4rem;
+	}
+
+	.megaReloj {
+		font-size: 5rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 1225px) {
+	* { font-size: 18px; }
+	a { font-size: 18px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 6rem;
+	}
+
+	.megaReloj {
+		font-size: 7rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+@media (min-width: 1425px) {
+	* { font-size: 18px; }
+	a { font-size: 18px; }
+	h1 { font-size: 3rem; }
+
+	.imgAtajos {
+		width: 5rem;
+		height: 5rem;
+	}
+	.megaEmblema {
+	width: 6rem;
+	}
+
+	.megaReloj {
+		font-size: 10rem;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 }
